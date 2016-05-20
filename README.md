@@ -2,8 +2,11 @@
 
 What this is
 ------------
-A simple iOS application which uses NSURLSession, Core Data, NSFetchedResultsController, Heneke (CocoaPods), 
-and a custom AVPlayer.  This is a project written in Swift 2.2.1 (Xcode 7.3.1). 
+A simple iOS application which uses NSURLSession, Core Data, NSFetchedResultsController, Haneke (CocoaPods), 
+and a custom AVPlayer.  This is a project written in Swift 2.2.1 (Xcode 7.3.1). This app fetches a API
+and stores the data into Core Data.  Core Data objects is presented as a video using a custom subclass
+of the AVPlayer, and on the TableViewController using NSFetchedResultsController and Haneke for image
+caching.  This project implements MVC (Model View Controller) architecture.
 
 Installing 
 ----------
