@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     }
     
     func setUpUI() {
+        self.usernameLabel.text = ""
         userImageView.layer.masksToBounds = true
         userImageView.layer.cornerRadius = userImageView.frame.width / 2
         userImageView.clipsToBounds = true
